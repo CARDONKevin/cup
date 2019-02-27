@@ -1,20 +1,44 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+<div class="container">
+  <div class="nav">
+    <div class="nav-item">
+      <h4 class="nav-title">Coffee</h4>
+    </div>
+    <div class="nav-item browse-item">
+      <ul>
+        <li class="item browse">COFFEE STATISTICS</li>
+        <li class="item nav-active">DATA</li>
+      </ul>
+    </div>
+  </div>
+  <div class="content">
+    <div class="navbar">
+      <div class="navbar-item-left">
+        <i class="item-left fas fa-angle-left"></i>
+        <i class="item-left fas fa-angle-right navbar-item-active"></i>
+      </div>
+      <div class="navbar-item-right">
+        <div class="navbar-item-right-icon">
+          <i class="item-right fas fa-search"></i>
+          <i class="item-right fas fa-bell"></i>
+        </div>
+        <div class="profile">
+          <img class="profile-pic" src="https://get.pxhere.com/photo/coffee-cup-logo-icon-drink-cafe-restaurant-hot-mug-breakfast-bar-espresso-teacup-chocolate-capuccino-energy-beverage-caffeine-brew-bean-lunch-heat-saucer-wake-grain-yellow-font-smile-emoticon-circle-symbol-illustration-smiley-1447903.jpg" />
+        </div>
+        <p class="profile-name"> Coffee test<br><span class="profile-menu">Manage Account</span></p>
+      </div>
+    </div>
+    <div class="widget">
+      <app-humidity></app-humidity>
+      <br/>
+      <app-temperature></app-temperature>
+    </div>
 
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
